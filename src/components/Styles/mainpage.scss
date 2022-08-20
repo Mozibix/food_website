@@ -1,0 +1,26 @@
+@import "./helpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main_page {
+  &_inner {
+    .nav {
+      margin-top: 52px;
+    }
+
+    .content {
+      inset: 174px 117px;
+      width: 30rem;
+    }
+
+    .circled_sec {
+      position: absolute;
+      inset: 0.5rem 41rem;
+    }
+  }
+}

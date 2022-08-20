@@ -1,0 +1,17 @@
+@import "./helpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.clip_path {
+  position: absolute;
+  background-color: $secondary;
+  height: 1176px;
+  width: 1176px;
+  clip-path: circle(70.2% at 76% 15%);
+  inset: -42rem 11.8rem;
+}

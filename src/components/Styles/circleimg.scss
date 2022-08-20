@@ -1,0 +1,49 @@
+@import "./helpers.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.img_section {
+  &_inner {
+    .circled_img {
+      img {
+        position: absolute;
+        width: 631px;
+      }
+    }
+
+    .circled_img {
+      img {
+        width: 43rem;
+        inset: -2rem 0;
+      }
+    }
+
+    .middle_img {
+      img {
+        position: absolute;
+        inset: 17rem 17rem;
+        height: 247px;
+        width: 256px;
+      }
+    }
+
+    .arrow {
+      display: flex;
+      justify-content: center;
+      margin-inline-start: 23rem;
+      inset: 25rem 1rem;
+      z-index: 1;
+
+      img {
+        margin: 1rem 14rem;
+        background-color: $secondary;
+        border-radius: 50%;
+      }
+    }
+  }
+}
